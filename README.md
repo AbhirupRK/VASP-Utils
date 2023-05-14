@@ -22,3 +22,5 @@ This script aims to automate the structure-optimization process in `VASP`. Usual
 3) Set the PATH of `vasp` executable and number of `MPI cores`
 4) Submit the job like you do usually
 
+
+Thank you for visiting :heart:
