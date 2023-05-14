@@ -4,11 +4,11 @@ I will add various scripts/codes to ease the usage of the DFT package VASP over 
 
 ## vasp_autorelax.sh
 
-This script aims to automate the structure-optimization process in `VASP`. Usually, `VASP` doesn't fully relax the given structure in one go. One has to replace `POSCAR` with `CONTCAR` after every run until the structure get fully relaxed. Sometimes it requires hundreds of repeat-runs to achieve convergence for a specified set of convergence criteria. This is where the small script may become very helpful. One just runs this script and forgets. The job will only stop after the structure has fully converged.
+This script aims to automate the structure-optimization process in `VASP`. Usually, `VASP` doesn't fully relax the given structure in one go. One has to replace `POSCAR` with `CONTCAR` after every run until the structure gets fully relaxed. Sometimes it requires hundreds of repeat-runs to achieve convergence for a specified set of convergence criteria. This is where the small script may become very helpful. One just runs this script and forgets. The job will only stop after the structure has fully converged.
 
 ### Usage:
 
-* **If you directly run VASP and do not use any job scheduler, then just follow these steps:**
+* **If you directly run VASP, just follow these steps:**
 
 1) Download the file:  `vasp_autorelax.sh`
 2) Change its permission:  `chmod u+x vasp_autorelax.sh`
