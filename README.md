@@ -8,14 +8,14 @@ This script aims to automate the structure-optimization process in `VASP`. Usual
 
 ### Usage:
 
-* If you directly run VASP and do not use any job scheduler, then just follow these steps:
+* **If you directly run VASP and do not use any job scheduler, then just follow these steps:**
 
 1) Download the file:  `vasp_autorelax.sh`
 2) Change its permission:  `chmod u+x vasp_autorelax.sh`
 3) Open and edit the script in any text editor:  Set the PATH of `vasp` executable and number of `MPI cores`
 4) Run the script from your working directory:  `./vasp_autorelax.sh`
 
-* If you use any Job Scheduler (Slurm/SGE/PBS):
+* **If you use any Job Scheduler (Slurm/SGE/PBS):**
 
 1) Download the file:  `vasp_autorelax.sh`
 2) **Copy its contents to your job script** (Don't forget to remove any other lines that run VASP)
