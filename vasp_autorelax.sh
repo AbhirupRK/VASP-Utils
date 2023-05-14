@@ -8,7 +8,6 @@ NSLOTS=8
 
 ## Relaxing structure
 while [[ `grep "reached required accuracy" OUTCAR` == "" ]]; do
-  mpirun -np $NSLOTS $vasp
-  mv -f POSCAR POSCAR.old && cp CONTCAR POSCAR
+  mpirun -np $NSLOTS $vasp && mv -f POSCAR POSCAR.old && cp CONTCAR POSCAR
   sleep 60
 done
